@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eee;
+    font-family: Monospace;
+}
+
+.container {
+    background-color: cadetblue;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+header {}
+
+.proimg {
+    width: 120px;
+    height: 100px;
+    border: 2px solid rgb(54, 31, 11);
+    border-radius: 50%;
+    float: left;
+    opacity: 0.5;
+
+
+}
+
+.proimg:hover {
+    width: 150px;
+    height: 120px;
+    border: 3px solid gray;
+    border-radius: 50%;
+    opacity: 1;
+
+}
+
+.bio {
+
+    float: left;
+    padding: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: rgb(54, 31, 11);
+}
+
+.spn img {
+    height: 16px;
+    width: 16px;
+
+}
+
+.contact {
+    float: right;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.contact a {
+    text-decoration: none;
+    color: rgb(54, 31, 11);
+}
+
+.contact a:hover {
+    text-decoration: underline;
+    color: darkblue;
+    font-size: larger;
+}
+
+.clear {
+    clear: both;
+}
+
+hr {
+    border-bottom: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.personal-i {}
+
+.left-div {
+    width: 30%;
+    float: left;
+}
+
+.right-div {
+    height: 70%;
+    float: left;
+}
+
+.clm-hr {
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.khan {
+    float: left;
+    width: 45%;
+
+}
+
+.fcub {
+    float: right;
+    width: 45%;
+}
+
+.sclm-hr {
+    border-bottom: 1px dotted black;
+    width: 100%;
+    margin: 10px auto;
+}
+
+footer {
+    background-color: rgb(145, 3, 3);
+    color: #eee;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    padding: 30px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    align: center;
+    color: darkblue;
+
+}
+
+footer a:hover {
+    color: black;
+    font-size: 30px;
+    text-decoration: underline;
+    cursor: move;
+
+}
+
+.p {
+    color: darkblue;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.web {
+    width: 33%;
+    float: left;
+}
+
+.microsoft {
+    width: 33%;
+    float: left;
+}
+
+.others {
+    width: 33%;
+    float: right;
+}
